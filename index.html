@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep Cast · Información legal, privacidad y fuentes</title>
+<!--
+  Textos legales de la app para enlazar desde Google Play / App Store
+  (la ficha de la tienda exige una URL pública de política de privacidad).
+  Es el mismo contenido que src/legalTexts.ts; si cambias uno, cambia el otro.
+  Se publica copiando esta carpeta a la raíz del repositorio
+  github.com/sleepcast/sleepcast.github.io → https://sleepcast.github.io/
+  latest.json (misma carpeta) alimenta el aviso de versión nueva.
+-->
+<style>
+  :root { color-scheme: light dark; --fg:#1C1B1F; --bg:#FFFFFF; --muted:#5F5B66; --primary:#6750A4; --line:#DDD8E0; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#E6E1E5; --bg:#1C1B1F; --muted:#9AA4B2; --primary:#D0BCFF; --line:#49454F; } }
+  body { margin:0; padding:24px 16px 64px; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 26px; font-weight: 600; margin: 0 0 4px; }
+  h2 { font-size: 20px; color: var(--primary); margin: 32px 0 8px; }
+  h3 { font-size: 17px; margin: 24px 0 6px; }
+  .updated, .lang { color: var(--muted); font-size: 14px; }
+  .lang a { color: var(--primary); }
+  a { color: var(--primary); }
+  ul { padding-left: 20px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  code { font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<p class="lang"><a href="#es">Español</a> · <a href="#en">English</a></p>
+
+<section id="es">
+<h1>Sleep Cast — Información legal</h1>
+<p class="updated">Última actualización: 11 de septiembre de 2026</p>
+<p>Sleep Cast es una app independiente para escuchar televisión, radio, vídeos de YouTube y sonidos binaurales mientras te duermes. Contacto: <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a>.</p>
+
+<h2>Descargo de responsabilidad</h2>
+<p>Sleep Cast no emite, aloja, almacena ni retransmite ningún contenido. Se limita a reproducir en tu dispositivo las emisiones públicas y gratuitas que las propias cadenas y emisoras publican en Internet, a partir de índices abiertos mantenidos por terceros (ver "Fuentes"). Cada emisión viaja directamente desde el servidor de su emisora hasta tu dispositivo.</p>
+<p>La disponibilidad, calidad, contenido y legalidad de cada emisión dependen exclusivamente de su emisora y del índice que la lista. No garantizamos que ningún canal funcione ni que siga disponible.</p>
+<p>Sleep Cast no está afiliada, patrocinada ni respaldada por ninguna cadena, emisora, plataforma ni por Google/YouTube. Los nombres, logotipos y marcas que aparecen pertenecen a sus titulares y se muestran únicamente para identificar cada canal.</p>
+<p>Si eres titular de derechos y consideras que un canal no debería aparecer, escribe a <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a> indicando el nombre del canal y se retirará de la app en la siguiente actualización. También puedes pedir su retirada al índice de origen.</p>
+<p>La app se ofrece "tal cual", sin garantías de ningún tipo. En la medida permitida por la ley, el autor no responde de los daños derivados de su uso o de la imposibilidad de usarla.</p>
+
+<h2>Fuentes de vídeo y audio</h2>
+<p>Las listas de canales se descargan al abrir la app desde estos proyectos abiertos, mantenidos por sus comunidades:</p>
+<ul>
+  <li><a href="https://www.tdtchannels.com">TDTChannels</a>: televisión y radio de España.</li>
+  <li><a href="https://github.com/iptv-org/iptv">iptv-org</a>: canales de televisión en abierto de todo el mundo, por idioma.</li>
+  <li><a href="https://github.com/Free-TV/IPTV">Free-TV/IPTV</a>: listas de canales por país.</li>
+  <li><a href="https://www.radio-browser.info">Radio Browser</a>: directorio comunitario de emisoras de radio.</li>
+  <li><a href="https://www.youtube.com">YouTube</a>: búsqueda mediante la YouTube Data API y reproducción con el reproductor oficial de YouTube.</li>
+</ul>
+<p>Los logotipos proceden de las propias listas y, en parte, de <a href="https://commons.wikimedia.org">Wikimedia Commons</a>; cada uno conserva la licencia de su origen.</p>
+<p>Los sonidos binaurales y el ruido de fondo se generan dentro de la app, no proceden de ninguna fuente externa.</p>
+
+<h2>YouTube</h2>
+<p>La pestaña YouTube usa los servicios de la API de YouTube. Al usarla aceptas las <a href="https://www.youtube.com/t/terms">Condiciones del servicio de YouTube</a> y te aplica la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
+<p>Los vídeos se reproducen íntegramente en el reproductor oficial de YouTube incrustado en la app, con sus controles, anuncios y estadísticas: la app no descarga, extrae, separa ni modifica el audio o el vídeo, ni reproduce YouTube en segundo plano. Por exigencia de YouTube, el vídeo debe permanecer visible mientras suena; para dormir puedes bajar el brillo de la pantalla al mínimo desde la propia app.</p>
+<p>La app no inicia sesión en YouTube ni almacena datos de tu cuenta. Los términos de búsqueda se envían a Google solo para obtener los resultados y no se guardan.</p>
+
+<h2 id="privacidad">Política de privacidad</h2>
+<p>No hay registro ni cuenta de usuario. Para saber cuántas personas usan la app y en qué dispositivos falla, en cada arranque la app envía a un servidor propio (alojado en Supabase) un registro anónimo con:</p>
+<ul>
+  <li>Un identificador aleatorio generado por la app en la primera apertura (no es tu cuenta de la tienda ni tu email; la app no puede conocerlos).</li>
+  <li>Identificadores del dispositivo que el sistema ofrece a las apps (Android ID o identificador de proveedor de iOS).</li>
+  <li>Marca, modelo y tipo de dispositivo, sistema operativo y versión, memoria y tamaño de pantalla.</li>
+  <li>Versión de la app, idioma elegido, idiomas y región del sistema, zona horaria, fecha de instalación y número de aperturas.</li>
+</ul>
+<p>Esos datos se usan solo para estadísticas de uso y diagnóstico de errores, no se venden ni se ceden a terceros, y se conservan mientras la app siga publicada. No se registra qué canales escuchas ni qué buscas.</p>
+<p>Puedes pedir acceso o borrado de tu registro escribiendo a <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a> con el identificador que aparece al final de la pantalla "Información legal" de la app.</p>
+<p>Al reproducir un canal, tu dispositivo se conecta directamente al servidor de la emisora, que ve tu dirección IP como cualquier navegador. Lo mismo ocurre al descargar las listas (TDTChannels, GitHub, Radio Browser), los logotipos (Wikimedia) y las actualizaciones de la app (Expo/EAS). La pestaña YouTube está sujeta a la política de privacidad de Google.</p>
+<p>Las listas de canales y el resultado de las comprobaciones de funcionamiento se guardan en el propio dispositivo para abrir la app sin conexión; se borran al desinstalarla.</p>
+
+<h2>Permisos</h2>
+<ul>
+  <li>Internet: descargar listas, logotipos y emisiones.</li>
+  <li>Servicio en primer plano y notificación multimedia: seguir sonando con la pantalla apagada y mostrar los controles en la pantalla de bloqueo.</li>
+  <li>Acceso a "No molestar" (Android, opcional): solo si pulsas el botón "No molestar", para silenciar las notificaciones de las demás apps mientras duermes. Puedes revocarlo en Ajustes.</li>
+  <li>Brillo de pantalla: para bajarlo al mínimo en la pestaña YouTube.</li>
+  <li>Red local (Wi-Fi): para enviar la emisión a la tele (Chromecast o DLNA).</li>
+</ul>
+<p>Ninguna función requiere ubicación, contactos, micrófono, cámara ni acceso a tus archivos.</p>
+
+<h2>Sonidos binaurales</h2>
+<p>Los sonidos binaurales son una ayuda para relajarse y no un tratamiento médico ni un sustituto de él. Su eficacia varía de una persona a otra. Escúchalos a volumen moderado y con auriculares. Si padeces epilepsia, llevas marcapasos, estás embarazada o tienes alguna afección auditiva o neurológica, consulta con tu médico antes de usarlos. No los uses mientras conduces o manejas maquinaria.</p>
+
+<h2>Software de terceros</h2>
+<p>La app está construida con React Native y Expo, y usa entre otros: expo-video, expo-image, react-native-audio-api (Software Mansion), react-native-webview, react-native-youtube-iframe, react-native-google-cast, react-native-tcp-socket y react-native-udp. Todos bajo licencias de código abierto (MIT, Apache 2.0 y BSD) cuyos textos completos acompañan a cada paquete.</p>
+
+<h2>Cambios</h2>
+<p>Estos textos pueden actualizarse con nuevas versiones de la app. La fecha de la última revisión figura al principio. La versión vigente está siempre disponible dentro de la app y en esta página.</p>
+</section>
+
+<hr>
+
+<section id="en">
+<h1>Sleep Cast — Legal information</h1>
+<p class="updated">Last updated: September 11, 2026</p>
+<p>Sleep Cast is an independent app to listen to TV, radio, YouTube videos and binaural sounds while you fall asleep. Contact: <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a>.</p>
+
+<h2>Disclaimer</h2>
+<p>Sleep Cast does not broadcast, host, store or relay any content. It only plays on your device the public, free-to-air streams that broadcasters themselves publish on the Internet, taken from open indexes maintained by third parties (see "Sources"). Each stream travels directly from the broadcaster's server to your device.</p>
+<p>The availability, quality, content and legality of each stream depend solely on its broadcaster and on the index that lists it. We do not guarantee that any channel works or stays available.</p>
+<p>Sleep Cast is not affiliated with, sponsored or endorsed by any broadcaster, station, platform or by Google/YouTube. Names, logos and trademarks belong to their owners and are shown only to identify each channel.</p>
+<p>If you are a rights holder and believe a channel should not be listed, write to <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a> with the channel name and it will be removed in the next update. You can also request its removal from the source index.</p>
+<p>The app is provided "as is", without warranty of any kind. To the extent permitted by law, the author is not liable for damages arising from its use or from the inability to use it.</p>
+
+<h2>Video and audio sources</h2>
+<p>Channel lists are downloaded when the app opens from these open, community-maintained projects:</p>
+<ul>
+  <li><a href="https://www.tdtchannels.com">TDTChannels</a>: Spanish TV and radio.</li>
+  <li><a href="https://github.com/iptv-org/iptv">iptv-org</a>: free-to-air TV channels worldwide, by language.</li>
+  <li><a href="https://github.com/Free-TV/IPTV">Free-TV/IPTV</a>: channel lists by country.</li>
+  <li><a href="https://www.radio-browser.info">Radio Browser</a>: community radio station directory.</li>
+  <li><a href="https://www.youtube.com">YouTube</a>: search through the YouTube Data API and playback in the official YouTube player.</li>
+</ul>
+<p>Logos come from the lists themselves and partly from <a href="https://commons.wikimedia.org">Wikimedia Commons</a>; each keeps the licence of its origin.</p>
+<p>Binaural sounds and background noise are generated inside the app and do not come from any external source.</p>
+
+<h2>YouTube</h2>
+<p>The YouTube tab uses YouTube API Services. By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> applies.</p>
+<p>Videos play entirely in the official YouTube player embedded in the app, with its controls, ads and statistics: the app does not download, extract, separate or modify audio or video, and does not play YouTube in the background. YouTube requires the video to stay visible while playing; to sleep you can dim the screen to its minimum from within the app.</p>
+<p>The app does not sign in to YouTube and stores no account data. Search terms are sent to Google only to fetch results and are not kept.</p>
+
+<h2 id="privacy">Privacy policy</h2>
+<p>There is no sign-up or user account. To know how many people use the app and on which devices it fails, on each launch the app sends an anonymous record to our own server (hosted on Supabase) with:</p>
+<ul>
+  <li>A random identifier generated by the app on first launch (it is not your store account or email; the app cannot know those).</li>
+  <li>Device identifiers the system exposes to apps (Android ID or iOS vendor identifier).</li>
+  <li>Device brand, model and type, operating system and version, memory and screen size.</li>
+  <li>App version, chosen language, system languages and region, time zone, install date and number of launches.</li>
+</ul>
+<p>This data is used only for usage statistics and error diagnosis, is never sold or shared with third parties, and is kept while the app remains published. Which channels you listen to or what you search for is not recorded.</p>
+<p>You can request access to or deletion of your record by writing to <a href="mailto:sleepcast.com@gmail.com">sleepcast.com@gmail.com</a> with the identifier shown at the bottom of the app's "Legal information" screen.</p>
+<p>When you play a channel, your device connects directly to the broadcaster's server, which sees your IP address like any browser would. The same happens when downloading the lists (TDTChannels, GitHub, Radio Browser), logos (Wikimedia) and app updates (Expo/EAS). The YouTube tab is subject to the Google Privacy Policy.</p>
+<p>Channel lists and the results of availability checks are stored on the device so the app can open offline; they are deleted when you uninstall the app.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li>Internet: downloading lists, logos and streams.</li>
+  <li>Foreground service and media notification: keep playing with the screen off and show lock-screen controls.</li>
+  <li>"Do not disturb" access (Android, optional): only if you tap the "Do not disturb" button, to silence other apps' notifications while you sleep. You can revoke it in Settings.</li>
+  <li>Screen brightness: to dim the screen in the YouTube tab.</li>
+  <li>Local network (Wi-Fi): to send the stream to a TV (Chromecast or DLNA).</li>
+</ul>
+<p>No feature requires location, contacts, microphone, camera or access to your files.</p>
+
+<h2>Binaural sounds</h2>
+<p>Binaural sounds are a relaxation aid, not a medical treatment or a substitute for one. Their effect varies from person to person. Listen at a moderate volume with headphones. If you have epilepsy, a pacemaker, are pregnant or have a hearing or neurological condition, consult your doctor before using them. Do not use them while driving or operating machinery.</p>
+
+<h2>Third-party software</h2>
+<p>The app is built with React Native and Expo and uses, among others: expo-video, expo-image, react-native-audio-api (Software Mansion), react-native-webview, react-native-youtube-iframe, react-native-google-cast, react-native-tcp-socket and react-native-udp. All under open-source licences (MIT, Apache 2.0 and BSD) whose full texts ship with each package.</p>
+
+<h2>Changes</h2>
+<p>These texts may be updated with new versions of the app. The date of the last revision appears at the top. The current version is always available inside the app and on this page.</p>
+</section>
+
+</main>
+</body>
+</html>
